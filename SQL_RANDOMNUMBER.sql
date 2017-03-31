@@ -22,7 +22,7 @@ abs(rownumber) AS absolutevalue, -- just changes a negative number into a positi
 checksum(rownumber) AS checksumofvalue,
 NewID() AS newid_check,
 (Checksum(NewID())) AS checksumofnewID,
-ABS((Checksum(NewID()))  AS checksumofABS
+ABS((Checksum(NewID())))  AS checksumofABS
 
 
  FROM @teststore t  
